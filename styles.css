@@ -94,24 +94,17 @@ li{
 .searchform{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     padding: 10px;
-
-
-input{
-    border: none;
-    -webkit-appearance: none;
-    -ms-appearence: none;
-    -moz-appearance: none;
-    appearance: none;
-    border-radius: 50%;
-    width: 100px;
-}
-
     
 
-    
+
+
+
+
 }
+
+
+
 
 .buttons{
     display: flex;
