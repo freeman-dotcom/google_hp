@@ -95,15 +95,13 @@ li{
     display: flex;
     justify-content: center;
     padding: 10px;
-    
-
-
-
-
-
 }
 
-
+.textform{
+    flex-basis: 500px;
+    height: 40px;
+    border-radius: 30px;
+}
 
 
 .buttons{
@@ -113,8 +111,23 @@ li{
 }
 
 .search_button{
-    margin: 10px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border: 1px solid #f8f9fa;
+    font-family: Roboto,arial,sans-serif;
+    color: #3c4043;
+    text-align: center;
+    cursor: pointer;
+
+button:hover{
+    border: 1px solid #3c4043;
 }
+
+
+
 
 .lucky_button{
     margin: 10px;
